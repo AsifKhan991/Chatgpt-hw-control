@@ -16,7 +16,7 @@ except serial.serialutil.SerialException:
     print(' Hardware port not found! ')
     port=0
      
-openai.api_key = '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'
+openai.api_key = 'your api KEY'
 messages = []
 r = sr.Recognizer()
 engine = pyttsx3.init()
